@@ -8,8 +8,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-// 20th June 2023 - Code updated by Vinoth - Added sysout message
-
 public class RegisterDemoTestNG {
 	
 	public WebDriver driver;
@@ -17,7 +15,7 @@ public class RegisterDemoTestNG {
 	//Parameterizing the values
 	String url = "https://nxtgenaiacademy.com/";
 	String firstName = "Vinoth";
-	String lastName = "R";
+	String lastName = "Rathinam";
 	String gender = "Male";
 	String streetAddress = "234";
 	String apartmenttNo = "213/7";
