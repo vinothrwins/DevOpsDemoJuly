@@ -34,6 +34,8 @@ public class RegisterDemoTestNG {
 	@Test(priority = 1)
 	public void launchApplication() {
 		
+		System.out.println("CI CD implemented");
+		
 		//Set the system property for chrome driver
 		System.setProperty("webdriver.chrome.driver", ".\\Drivers\\chromedriver.exe");
 
